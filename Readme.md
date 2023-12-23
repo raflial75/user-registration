@@ -34,4 +34,20 @@ Features:
 4. Run command `npm install` and wait untill the installation completed
 5. You can test it using node or nodemon
    - node: `npm run start`
-   - nodemon: `npm run start-dev`
+   - nodemon: `npm run start-dev`  
+
+**Extra**
+MySQL create table command:
+```
+USE <your database/schema name>;
+
+CREATE TABLE users (
+	id INT PRIMARY KEY,
+	username VARCHAR(255) NOT NULL UNIQUE,
+	email VARCHAR(255) NOT NULL UNIQUE,
+	password VARCHAR(255) NOT NULL UNIQUE,
+	is_verified BOOLEAN DEFAULT false
+);
+
+}
+```
