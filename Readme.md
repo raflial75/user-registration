@@ -36,7 +36,7 @@ Features:
    - node: `npm run start`
    - nodemon: `npm run start-dev`  
 
-**Extra**
+**Extra**  
 MySQL create table command:
 ```
 USE <your database/schema name>;
