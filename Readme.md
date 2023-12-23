@@ -1,5 +1,14 @@
 # User Registration
 This is backend service for user registration.  
+Features:
+1. username, email, and password can't be null.
+2. username and email can only registered once.
+3. There are requirements for password value:
+   - Password at least composed of 8 characters long,
+   - Password must contain at least one uppercase and lowercase letter,
+   - Password must contain at least one special characters (!, @, #, $, %, ^, _, &, -, *)
+4. After user register their data, they need verify throught token that send to the email.
+5. The password stored in database are hashed using bycrypt
 
 **Tech Stack**
 - Node.js
