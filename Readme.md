@@ -14,7 +14,7 @@ This is backend service for user registration.
 2. Set value for `HOST, USER, PASSWORD, DB_SCHEMA`  
     example
     ```
-    ./root-folder/.env
+    ./root-folder/.env  
     HOST="The host used" // localhost, public ip, private ip, etc.
     USER="your username"
     PASSWORD="your password"
